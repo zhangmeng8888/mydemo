@@ -10,7 +10,7 @@ import java.util.List;
     @Service
     public class Userservice {
         @Autowired
-        private UserMapper userMapper;
+        private UserMapper userMapper;//添加。。。。。。。。
 
         public List<User> findByName(String name) {
             return userMapper.findUserByName(name);
